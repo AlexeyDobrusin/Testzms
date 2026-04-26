@@ -997,7 +997,7 @@ function CareerSection({ isMobile, onAuditClick }) {
       setTimeout(() => setExpiredToast(null), 3500);
     } else {
       if (typeof window !== 'undefined' && window.ym) window.ym(103707469, 'reachGoal', 'zapisatsya-na-audit');
-      window.open('https://audit.metodzms.ru/?utm_source=test&utm_medium=results&utm_campaign=audit&promo=DOBRUSIN', '_blank');
+      window.open('https://audit.dobrusin.pro/?promo=DOBRUSIN', '_blank');
       if (onAuditClick) onAuditClick();
     }
   };
