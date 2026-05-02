@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
     __html: `
       (function(m,e,t,r,i,k,a){
         ...
-      })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=103707469', 'ym');
+      })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=109017622', 'ym');
       ym(109017622, 'init', ...);
     `,
   }}
