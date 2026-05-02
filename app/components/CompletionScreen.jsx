@@ -152,7 +152,7 @@ export function CompletionScreen({ onViewResults }) {
         <button
           onClick={(e) => {
             e.currentTarget.blur();
-            if (typeof window !== 'undefined' && window.ym) window.ym(103707469, 'reachGoal', 'test-smotret-rezultaty');
+            if (typeof window !== 'undefined' && window.ym) window.ym(109017622, 'reachGoal', 'test-smotret-rezultaty');
             onViewResults();
           }}
           onKeyDown={(e) => {
