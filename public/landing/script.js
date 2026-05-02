@@ -283,7 +283,7 @@
         // Цель 2: zabrat-bonusy — все кнопки «Забрать бонусы»
         if (text === 'Забрать бонусы') {
             btn.addEventListener('click', function() {
-                if (typeof ym !== 'undefined') ym(103707469, 'reachGoal', 'zabrat-bonusy');
+                if (typeof ym !== 'undefined') ym(109017622, 'reachGoal', 'zabrat-bonusy');
             });
         }
     });
