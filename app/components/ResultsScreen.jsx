@@ -1449,7 +1449,7 @@ function LandingStepsSection({ isMobile, results, answers, onBonusSubmit }) {
         await onBonusSubmit(name.trim(), phone.trim());
       }
       setBonusSent(true);
-      if (typeof window !== 'undefined' && window.ym) window.ym(103707469, 'reachGoal', 'zabrat-bonusy-poddomen');
+      if (typeof window !== 'undefined' && window.ym) window.ym(109017622, 'reachGoal', 'zabrat-bonusy-poddomen');
       window.open('https://t.me/dobrusin_promarketing_bot?start=bonuses', '_blank');
     } catch (error) {
       console.error('Ошибка отправки в Telegram:', error);
