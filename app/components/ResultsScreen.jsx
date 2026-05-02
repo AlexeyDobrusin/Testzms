@@ -996,7 +996,7 @@ function CareerSection({ isMobile, onAuditClick }) {
       setExpiredToast('Ваше предложение уже недействительно');
       setTimeout(() => setExpiredToast(null), 3500);
     } else {
-      if (typeof window !== 'undefined' && window.ym) window.ym(103707469, 'reachGoal', 'zapisatsya-na-audit');
+      if (typeof window !== 'undefined' && window.ym) window.ym(109017622, 'reachGoal', 'zapisatsya-na-audit');
       window.open('https://audit.dobrusin.pro/?promo=DOBRUSIN', '_blank');
       if (onAuditClick) onAuditClick();
     }
