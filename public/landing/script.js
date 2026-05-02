@@ -277,7 +277,7 @@
         var text = btn.textContent.trim();
         if (text === 'Пройти краш-тест') {
             btn.addEventListener('click', function() {
-                if (typeof ym !== 'undefined') ym(103707469, 'reachGoal', 'projti-krash-test');
+                if (typeof ym !== 'undefined') ym(109017622, 'reachGoal', 'projti-krash-test');
             });
         }
         // Цель 2: zabrat-bonusy — все кнопки «Забрать бонусы»
